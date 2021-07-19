@@ -78,23 +78,23 @@ WSGI_APPLICATION = 'Ecomm.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'daom11bvv275f3',
-#         'USER' : 'vczskoyzyehqkq',
-#         'PASSWORD' : '02041e690246667db8c0bf93cecde9ec1a6c79b04faaa89fb0db66a5e21fd0b4',
-#         'HOST' : 'ec2-52-202-152-4.compute-1.amazonaws.com',
-#         'PORT' : '5432',
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'daom11bvv275f3',
+        'USER' : 'vczskoyzyehqkq',
+        'PASSWORD' : '02041e690246667db8c0bf93cecde9ec1a6c79b04faaa89fb0db66a5e21fd0b4',
+        'HOST' : 'ec2-52-202-152-4.compute-1.amazonaws.com',
+        'PORT' : '5432',
+    }
+}
 
 
 
