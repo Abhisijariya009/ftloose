@@ -1,1 +1,1 @@
-web: gunicorn Ecomm.wsgi --log-file -
+web: gunicorn ProjectEcomm.Ecomm.wsgi --log-file -
